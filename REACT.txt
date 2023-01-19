@@ -1,0 +1,10 @@
+REACT
+
+characterstics
+Single page application - react router dom
+Library from facebook - 
+reusability - react gives you component based architecture
+virtual dom and not real dom
+
+
+navbar, basics html

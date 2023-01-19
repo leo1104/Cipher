@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.btn{
+    border: 1px solid black;
+    width: fit-content;
+    /* margin-bottom:20px; */
+    /* float: left; */
+    /* display: flex; */
+    padding: 20px;
+    /* width: 100%; */
+}
+.main{
+   display: flex;
+   align-items: center;/* vertical center  */
+   justify-content: space-between; /* horizontal center  */
+background-color: black;
+color: white;
+padding: 20px;
+/* flex-direction: column; */
+/* position: fixed; */
+/* width: 100%; */
+
+}
+
+.mainTwo{
+    align-items: center;
+}
+.class2{
+    /* position: absolute; */
+    /* padding-top: 80px; */
+}
+
+.square{
+    width:200px;
+    height:200px;
+    background-color: brown;
+    position: relative;
+}
+.parent{
+    position: relative;
+}
+
+
+.paraOne{
+    margin: 20px 0;
+    border: 1px solid black;
+    width: fit-content;
+    font-size: 44px;
+    text-transform: capitalize;
+}
+
+.rightClass{
+    display:flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+@keyframes animeOne{
+    0%{
+        transform: translate(0,5px);
+    }
+    25%{
+        transform: translate(0,0px);
+    }
+    50%{
+        transform: translate(0,5px);
+    }
+    100%{
+        transform: translate(0,0px);
+    }
+}
+
+.paraTwo{
+    font-size: 23px;
+    padding: 30px;
+    background-color: black;
+    width: fit-content;
+    margin: 20px;
+    animation-name: animeOne;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    /* transform: rotate(45deg); */
+    /* position: relative;
+    bottom: 20px; */
+    /* transform: skew(30deg); */
+    /* transform: scale(3.8); */
+    /* transform: translate(10px,0); */
+}
+
+/* .empty{
+    width: 300px;
+    height: 900px;
+    background-color: black;
+    position: relative;
+    bottom: 80px;
+} */
+
+.navLink{
+    padding: 20px;
+}
+
+.navLink:hover{
+    background-color: beige;
+    color:black;
+}
+
+@media screen and (max-width:1920px){
+    .paraOne{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:1536px){
+    .paraOne{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:1440px){
+    .paraOne{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:1220px){
+    .paraOne{
+        font-size: 30px;
+    }
+}
