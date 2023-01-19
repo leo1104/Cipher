@@ -151,3 +151,70 @@
 
 
 // create 7 different varibales and combine them to make a single output that should be shown on the console
+
+
+
+
+//we can iterate through the array and make a new array from it with manipulated elements
+
+// 1st => Map,filter and reduce are mainly used used with arrays
+
+
+//only the first argument/parameter is mandatory in map
+
+
+// 1st argument => single individual element 
+
+// 2nd argument=> index w.r.t array
+
+// 3rd argument => array itself 
+
+
+// const arr=[22,44,66,88]
+
+// arr.map((ele)=>{
+//         console.log(ele);
+//     });
+// arrIndex==[0,1 ,2 , 3 , 4 ,5]
+// const a= arr.map((ele)=>{
+//     return ele*10
+// });
+
+// console.log(a);
+
+
+
+
+
+// objects
+// const obj ={
+//     name:"test",
+//     class:'first',
+//     rollNum:'001',
+//     ar1:[],
+//     obj1:{
+//         username:'leo'
+//     },
+//     arr2:[
+//         {leo:'1'}
+//     ]
+// };
+
+
+// arrays=>[]
+// objcts=>{}
+//calling an object property==> output will be it's value 
+// console.log(obj.obj1.username);
+
+
+// calling an object inside an array
+// console.log(obj.arr2[0].leo);
+
+
+
+
+
+// create an object that contains name=>string, rollnumber=>number, subject=>array which contains different subjects
+
+
+// Also, print name, rollNumber and subject array  value in seperate console
